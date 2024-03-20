@@ -7,7 +7,7 @@
 
 ## Repositorio público para alumnos de ISTEA
 
-## Carrera: Infraestructura de Redes
+## Carrera: SOPORTE DE INFRAESTRUCTURA
 
 ## Año 2024
 
