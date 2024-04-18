@@ -6,7 +6,20 @@
 
 # 1. Calcula el área de un rectángulo con base 5 y altura 3. Imprime el resultado.
 
+base = 5;
+altura = 3;
+
+area = base * altura;
+
+print(area);
+
 # 2. Convierte la temperatura de Celsius a Fahrenheit. Pide al usuario ingresar la temperatura en Celsius y luego imprime la temperatura equivalente en Fahrenheit.
+
+tempCelsius = float(input("Ingresa la temperatura en Celsius: "));
+
+tempFahrenheit = (tempCelsius * 9/5) + 32;
+
+print("La temperatura en Fahrenheit es", tempFahrenheit);
 
 # 3. Concatena tu nombre y tu edad como strings y guárdalos en una variable. Luego imprime el tipo de dato de esa variable.
 
