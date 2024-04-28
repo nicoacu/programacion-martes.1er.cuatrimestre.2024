@@ -66,6 +66,8 @@ def main():
 main()
 
 
-# revisarlo bien, en la mayoria de los casos no funciona, me dice -> Sin solución real.
+# perfecto, al final funciona bien, lo había controlado mal.. Felicitaciones!
+
+
 
 

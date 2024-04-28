@@ -20,18 +20,24 @@ def main():
             print('----------------------------------')
             tareas.append({'tarea': tarea, 'completada': False})
         elif opcion == 2:
-            indice = int(input('Ingresa el número de la tarea a marcar como completada: '))
-            if indice.isdigit() and  0 <= indice < len(tareas):
-                tareas[indice]['completada'] = True
+            indice = input('Ingresa el número de la tarea a marcar como completada: ')
+            if indice.isdigit():
+                indice = int(indice)
+                if   0 <= indice < len(tareas):
+                    tareas[indice]['completada'] = True
+                else:
+                    print('El undice no es valido')
+                print('----------------------------------')
             else:
-                print('El undice no es valido')
-            print('----------------------------------')
+                print('Por favor, ingresa un número válido.')
+                print('----------------------------------')
         elif opcion == 3:
             if not tareas:
                 print('No hay tareas pendientes.')
                 print('----------------------------------')
             for i, tarea in enumerate(tareas):
-                print(f'{i}. {'[X]' if tarea['completada'] else '[ ]'} {tarea['tarea']}')
+                print()
+                print(f"{i}. {'[X]' if tarea['completada'] else '[ ]'} {tarea['tarea']}")
         elif opcion == 4:
             break
         else:
@@ -60,3 +66,7 @@ main()
 #     print(f'{i}. {'[X]' if tarea['completada'] else '[ ]'} {tarea['tarea']}')
 #                    ^
 # SyntaxError: f-string: expecting '}'
+
+
+# perfecto, muy buen trabajo! lo resolvimos poniendo doble comilla en la línea 40. Podría haber sido también una diferencia por versiones de Python
+
