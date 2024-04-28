@@ -5,3 +5,4 @@
 # Utiliza un bucle for junto con índices para recorrer la mitad del string y comparar los caracteres desde el principio con los caracteres desde el final.
 # Si todos los caracteres coinciden, indica que la palabra es un palíndromo; de lo contrario, indica lo contrario.
 
+
