@@ -1,0 +1,5 @@
+Hola Mundo, comenzamos a trabajar con archivos en Python.
+Sigo escribiendo en la línea 2....
+
+Acá termina.
+
